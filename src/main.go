@@ -1,7 +1,9 @@
 package main
 
-import "github.com/andre-felipe-wonsik-alves/src/cmd"
+import (
+	"github.com/andre-felipe-wonsik-alves/advisor-go/cmd"
+)
 
-func main(){
+func main() {
 	cmd.Execute()
 }
